@@ -1,30 +1,29 @@
 
-![Logo](https://github.com/MirzalievPulat/2048-Hallowen-/blob/main/ic_launcher-playstore.png?raw=true)
+![Logo](https://github.com/MirzalievPulat/Maxmadona/blob/main/ic_launcher-playstore.png?raw=true)
 
 
 # 🔊 Maxmadona
 
-2048 (Halloween) is a spooky-themed variation of the classic 2048 puzzle game. Players slide and merge Halloween-inspired tiles to reach the highest possible score. Players can continue the game where it left.
+Maxmadona is an intelligent voice notification app that listens for system events like Bluetooth changes, Airplane mode toggles, Power connection, Screen on/off, Battery low, and Headset plug/unplug using Android's BroadcastReceiver. Whenever a change occurs, the app speaks the update aloud.
 ## 📸 Screenshots
 
-| <img src="https://github.com/MirzalievPulat/2048-Hallowen-/blob/main/1.jpg?raw=true" width="200"/> | <img src="https://github.com/MirzalievPulat/2048-Hallowen-/blob/main/2.jpg?raw=true" width="200"/> |
+| <img src="https://github.com/MirzalievPulat/Maxmadona/blob/main/1.jpg?raw=true" width="200"/> | <img src="https://github.com/MirzalievPulat/Maxmadona/blob/main/2.jpg?raw=true" width="200"/> |
 |---|---|
-| <img src="https://github.com/MirzalievPulat/2048-Hallowen-/blob/main/3.jpg?raw=true" width="200"/> | <img src="https://github.com/MirzalievPulat/2048-Hallowen-/blob/main/4.jpg?raw=true" width="200"/> |
+| <img src="https://github.com/MirzalievPulat/Maxmadona/blob/main/3.jpg?raw=true" width="200"/> |
 
 
 ## ✨ Features
-- Remembering the last game state 
-- Back to previous state, restart the game
-- Counting score and moves 
-- Changing animations according to max tile
+- Speak when enabled option changes
+- Dark and Light modes
+
 
 ## ⚒️ Used technologies 
 
 **Kotlin:** as a programming language
 
-**OnTouchListener:** for handling touch events for tile movement.
+**Broadcast:** for listening events.
 
-**Animations:** for providing a smooth and engaging user experience.
+**Service:** for keeping the broadcast alive when app is killed.
 
 **SharedPreferences:** for storing user preferences and game state.
 
@@ -35,4 +34,4 @@ Reach me with the help of email(mirzaliyevpolat3105@gmail.com), [telegram](https
 
 ## 📥 Download
 
-You can download the APK file from [here](https://github.com/MirzalievPulat/2048-Hallowen-/raw/main/app-release.apk)
+You can download the APK file from [here](https://github.com/MirzalievPulat/Maxmadona/raw/main/app-release.apk)
